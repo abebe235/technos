@@ -1,0 +1,89 @@
+@charaset "UTF-8" ;
+
+body{
+    line-height: 2 ;
+    background: #bef8ff ;
+/*    background: url(../images/bg.png) ;*/
+    color: #000064;
+}
+
+main{
+    width: 980px ;
+    margin: 30px auto ;
+    padding: 30px ;
+    background:#fff ;
+}
+
+nav{
+    width: 200px ;
+    margin: 20px 0;
+    padding-left:40px ;
+    border: 5px inset #bef8ff ;
+    border-radius: 10px ;
+   
+}
+
+ .head{
+    font-size: 50px ;
+     height: 130px;
+    border-bottom: solid ;
+     text-shadow: 5px 5px 20px #2d2dff ;
+}
+
+.head:first-letter{
+    font-size: 80px ;
+    color: #2d2dff ;
+}
+
+section h1{
+    margin-bottom:10px ;
+    font-size: 25px ;
+    border-bottom: solid ;
+/*    background-color: #bef8ff ;*/
+    margin-right: 10px ;
+}
+
+section h1:first-letter{
+    font-size: 40px ;
+/*    color: #2d2dff ;*/
+}
+
+.dot ul li{
+    list-style: none ;
+}
+
+h3{
+    margin-top:10px ;
+}
+
+
+section{
+/*    background-color: aquamarine;*/
+    margin:2ex 0 ;
+    padding: 10px ;
+     box-shadow: 5px 5px 10px #87c0f8 ;
+}
+
+a:link{
+    color: dodgerblue ;
+    text-decoration: none ;
+}
+
+a:visited{
+    color: #af52d6 ; 
+    text-decoration:none ;
+}
+
+a:hover{
+    color: aqua ;
+    text-decoration: underline;
+}
+
+a:active{
+    color: aliceblue ;
+    text-decoration: underline;
+}
+
+dl{
+    margin-top: 20px ;
+}
